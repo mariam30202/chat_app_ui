@@ -48,9 +48,17 @@ class _SignUpVoewState extends State<SignUpView> {
                 const SizedBox(
                   height: 15,
                 ),
+const SizedBox(
+  height: 15,
+),
+
+
+
                 CustomTextField(
                     label: 'password',
                     
+
+
                     prefixIcon: Icons.lock,
                     suffixIcon: IconButton(
                         onPressed: () {
